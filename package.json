@@ -1,0 +1,19 @@
+{
+  "name": "sap-order-to-cash-sales-monitor",
+  "version": "2.0.0",
+  "description": "SAPUI5 capstone project for order-to-cash sales monitoring",
+  "license": "Apache 2.0",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "test": "ui5 test"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.11.5"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "^1.120.0",
+    "@openui5/sap.ui.core": "^1.120.0",
+    "@openui5/sap.ui.layout": "^1.120.0"
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP Capstone Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            line-height: 1.55;
+            color: #1c2430;
+        }
+
+        h1, h2, h3 {
+            color: #113a5c;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+        }
+
+        .meta {
+            background: #f4f7fb;
+            border: 1px solid #d7e3ef;
+            border-radius: 10px;
+            padding: 16px 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th, td {
+            border: 1px solid #ccd7e2;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #eef4ea;
+        }
+
+        .note {
+            margin-top: 24px;
+            padding: 12px 14px;
+            background: #fff8e7;
+            border-left: 4px solid #b58800;
+        }
+
+        @media print {
+            body {
+                margin: 0.6in;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>SAP Order-to-Cash Sales Monitor</h1>
+    <div class="meta">
+        <p><strong>Name:</strong> Add your name</p>
+        <p><strong>Roll Number:</strong> Add your roll number</p>
+        <p><strong>Batch / Program:</strong> SAP Program - B8 Batch</p>
+    </div>
+
+    <h2>Problem Statement</h2>
+    <p>Business users often need multiple SAP transactions and reports to track sales-order progress across the Order-to-Cash cycle. This makes it hard to identify pending delivery, billing delays, and overdue payments in a single place.</p>
+
+    <h2>Solution Overview</h2>
+    <p>This project provides a SAP Fiori style dashboard built with SAPUI5/OpenUI5. It uses a local dataset inspired by the <strong>ZSODATA</strong> ABAP report and presents sales order data through KPI cards, filters, search, and a detailed drill-down page.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>KPI dashboard for total orders, order value, customers, and pending actions</li>
+        <li>Search by sales order, customer, or material</li>
+        <li>Filter by process stage, sales organization, and payment status</li>
+        <li>Detailed sales order page with business and technical mapping</li>
+        <li>Responsive UI for desktop and mobile-friendly usage</li>
+        <li>OData-ready metadata reference for future SAP integration</li>
+    </ul>
+
+    <h2>Technology Stack</h2>
+    <ul>
+        <li>SAPUI5 / OpenUI5</li>
+        <li>JavaScript</li>
+        <li>XML Views</li>
+        <li>JSON Model</li>
+        <li>OData metadata reference</li>
+    </ul>
+
+    <h2>SAP Module Alignment</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Topic</th>
+                <th>Project Mapping</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>05</td><td>Organizational Structure</td><td>Company Code, Plant, Sales Org, Distribution Channel, Division</td></tr>
+            <tr><td>06</td><td>Master and Transaction Data</td><td>Customer and Material vs Sales Order data</td></tr>
+            <tr><td>07</td><td>Core Business Process Integration</td><td>Order-to-Cash stages in dashboard and detail pages</td></tr>
+            <tr><td>08</td><td>Tables, Fields, SQL</td><td>Mapping from VBAK and VBAP to report and UI fields</td></tr>
+            <tr><td>10</td><td>SAP Fiori and OData</td><td>SAPUI5 app structure and metadata design</td></tr>
+            <tr><td>11</td><td>Reporting and Analytics</td><td>KPI cards and operational monitoring</td></tr>
+            <tr><td>12</td><td>ABAP Report Code</td><td>Project based on ZSODATA report idea</td></tr>
+        </tbody>
+    </table>
+
+    <h2>Unique Points</h2>
+    <ul>
+        <li>Turns classroom theory into one explainable capstone project</li>
+        <li>Demonstrates both functional and technical SAP understanding</li>
+        <li>Runs without a live SAP backend, which helps for demo and submission</li>
+        <li>Shows how ABAP report logic can be transformed into a Fiori UI</li>
+    </ul>
+
+    <h2>Future Improvements</h2>
+    <ul>
+        <li>Connect to real SAP Gateway OData services</li>
+        <li>Add authorization-based role views</li>
+        <li>Use CDS views for richer analytics</li>
+        <li>Add charts and trend analysis</li>
+    </ul>
+
+    <h2>Screenshots To Add Before PDF Export</h2>
+    <ol>
+        <li>Dashboard with KPI cards</li>
+        <li>Filtered sales order list</li>
+        <li>Sales order detail screen</li>
+        <li>Technical mapping section</li>
+    </ol>
+
+    <div class="note">
+        Export this page to PDF from the browser after replacing the student details and adding screenshots to match your college format requirements.
+    </div>
+</body>
+</html>
