@@ -52,6 +52,7 @@ Then open `http://localhost:8080`.
 - Use this repo/folder for your ZIP and GitHub upload.
 - Use `CAPSTONE_DOCUMENTATION.md` as the base content for the required 4-5 page PDF.
 - Add your personal details before final submission:
-  - Name
-  - Roll Number
-  - Batch / Program
+  - Name: ARPITA DATTA
+  - Roll Number : 2305846
+  - Program : SAP FIORI DEVELOPER
+  - 
