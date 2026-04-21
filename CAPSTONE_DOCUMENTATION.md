@@ -2,9 +2,9 @@
 
 ## Student Details
 
-- Name: `<Add your name>`
-- Roll Number: `<Add your roll number>`
-- Batch / Program: `SAP Program - B8 Batch`
+- Name: ARPITA DATTA
+- Roll Number: 2305846
+- Program: SAP FIORI DEVELOPER - B8 Batch
 
 ## Project Title
 
